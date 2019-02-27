@@ -6,7 +6,7 @@ class Sample {
     @SayIt
     private void sendAloha(String text) {
         if (text == null || text.isEmpty()) {
-            text = "Aloha, Muchachos graces";
+            text = "Aloha, Muchachas graces";
         }
         System.out.println(text);
     }
