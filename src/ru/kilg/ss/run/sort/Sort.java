@@ -4,20 +4,18 @@ import java.util.Random;
 
 /**
  * SomeSamples
- * Bubble - [Description]
+ * Sort - [Static samples for sorting and testing times for]
  *
  * @author KIlG
  * @version 0.1
  * Create 07.05.19
  */
 
-public class Bubble {
-    private static final int SIZE = 25;
-    private static final int BOUND = 100;
+public class Sort {
     private static int[] source;
 
     static {
-        source = randomize(SIZE, BOUND);
+        source = randomize(25, 100);
     }
 
     private static int[] randomize(int size, int bound) {
