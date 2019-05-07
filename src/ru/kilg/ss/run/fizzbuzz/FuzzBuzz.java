@@ -1,4 +1,4 @@
-package ru.kilg.ss.run.run;
+package ru.kilg.ss.run.fizzbuzz;
 
 /**
  * SomeSamples
